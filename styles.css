@@ -1,0 +1,78 @@
+body {
+    font: normal 100% Roboto Mono;
+    font-family: Courier;
+    line-height: 1.3 rem;
+    background-image: url("../assets/background.png");
+    margin: 0px;
+}
+
+h2 {
+    color: #ff0099;
+}
+
+section,
+h1,
+h2 {
+    padding: 0% 10%;
+}
+
+h3 {
+    text-align: center;
+    margin: 50px;
+}
+
+h5 {
+    text-align: center;
+    margin: 50px
+}
+
+small {
+    color: #ff0099;
+}
+
+header {
+    background-color: #333333;
+    padding: 0px;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+a {
+    color: #ff0099;
+}
+
+nav {
+    display: flex;
+    top: 0px;
+}
+
+#LogoId {
+    padding: 10px 30px 10px 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: unset;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.button {
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.button:hover {
+    font-weight: bold;
+    transform: scale(1.3);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
